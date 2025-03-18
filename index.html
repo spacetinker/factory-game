@@ -1,28 +1,36 @@
 <html>
-  <body id="tutorialbody">
+  <body id="intro">
   <p>in this game you will sorta run a factory</p>
   <p>your job is to hire workers,engineers and designers</p>
   <p> to design finalize and make product along with</p>
   <p>  that you will also need to buy materials and</p>
   <p> sign contracts</p>
-  <button>Start!</button>
+  <button onclick="closeintro">Start!</button>
   </body>
-  <body id="buttons">
+  <body id="buttons" hidden>
+    <button onclick="productionmenu" id="produce">production</button>
+    <button onclick="researchmenu" id="research">research</button>
+    <button onclick="stockmenu" id="stock">stockpile</button>
+    <button onclick="contractmenu" id="deals">contracts</button>
+    <button onclick="adminmenu" id="admin">administration</button>
+    <button onclick="statsmenu" id="stats">statistics</button>
+  </body>
+  <body id="contracts" hidden>
     
   </body>
-  <body id="contracts">
+  <body id="production" hidden>
     
   </body>
-  <body id="production">
+  <body id="research" hidden>
     
   </body>
-  <body id="stockpile">
+  <body id="stockpile" hidden>
     
   </body>
-  <body id="administration">
+  <body id="administration" hidden>
     
   </body>
-  <body id="statistics">
+  <body id="statistics" hidden>
     
   </body>
 </html>
