@@ -47,6 +47,6 @@ function contracts() {
   document.getElementById("research").hidden = true;
   document.getElementById("administration").hidden = true;  
   document.getElementById("stockpile").hidden = true;
-  document.getElementById("contracts").hidden = true;
-  document.getElementById("statistics").hidden = false;
+  document.getElementById("contracts").hidden = false;
+  document.getElementById("statistics").hidden = true;
 }
