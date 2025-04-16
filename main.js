@@ -1,6 +1,6 @@
 function closeintro() {
   document.getElementbById("intro").hidden = true;
-  document.getElementbById("buttons").hidden = false;
+  document.getElementbById("menubuttons").hidden = false;
 }
 function productionmenu() {
   document.getElementById("production").hidden = false;
