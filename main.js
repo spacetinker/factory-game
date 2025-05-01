@@ -42,7 +42,7 @@ function statsmenu() {
   document.getElementById("contracts").hidden = true;
   document.getElementById("statistics").hidden = false;
 }
-function contracts() {
+function contractmenu() {
   document.getElementById("production").hidden = true;
   document.getElementById("research").hidden = true;
   document.getElementById("administration").hidden = true;  
