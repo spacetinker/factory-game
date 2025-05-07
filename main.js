@@ -49,4 +49,5 @@ function contractmenu() {
   document.getElementById("stockpile").hidden = true;
   document.getElementById("contracts").hidden = false;
   document.getElementById("statistics").hidden = true;
+  document.getElementById("deals").hidden = true;
 }
