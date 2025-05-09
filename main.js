@@ -9,6 +9,7 @@ function productionmenu() {
   document.getElementById("stockpile").hidden = true;
   document.getElementById("contracts").hidden = true;
   document.getElementById("statistics").hidden = true;
+  document.getElementById("contrreqi").hidden = true;
 }
 function stockmenu() {
   document.getElementById("production").hidden = true;
@@ -17,6 +18,7 @@ function stockmenu() {
   document.getElementById("stockpile").hidden = false;
   document.getElementById("contracts").hidden = true;
   document.getElementById("statistics").hidden = true;
+  document.getElementById("contrreqi").hidden = true;
 }
 function adminmenu() {
   document.getElementById("production").hidden = true;
@@ -25,6 +27,7 @@ function adminmenu() {
   document.getElementById("stockpile").hidden = true;
   document.getElementById("contracts").hidden = true;
   document.getElementById("statistics").hidden = true;
+  document.getElementById("contrreqi").hidden = true;
 }
 function researchmenu() {
   document.getElementById("production").hidden = true;
@@ -32,6 +35,7 @@ function researchmenu() {
   document.getElementById("administration").hidden = true;  
   document.getElementById("stockpile").hidden = true;
   document.getElementById("contracts").hidden = true;
+  document.getElementById("contrreqi").hidden = true;
   document.getElementById("statistics").hidden = true;
 }
 function statsmenu() {
@@ -40,6 +44,7 @@ function statsmenu() {
   document.getElementById("administration").hidden = true;  
   document.getElementById("stockpile").hidden = true;
   document.getElementById("contracts").hidden = true;
+  document.getElementById("contrreqi").hidden = true;
   document.getElementById("statistics").hidden = false;
 }
 function contractmenu() {
@@ -48,5 +53,6 @@ function contractmenu() {
   document.getElementById("administration").hidden = true;  
   document.getElementById("stockpile").hidden = true;
   document.getElementById("contracts").hidden = false;
+  document.getElementById("contrreqi").hidden = false;
   document.getElementById("statistics").hidden = true;
 }
