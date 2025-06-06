@@ -30,7 +30,7 @@
        <button id="contractoption4" style="width: 150px;height: 60px" >none yet</button>
        <button id="countrycontract" style="width: 150px;height: 60px" >license for military dealing</button>
      </div></div>
-   <div id="contractspecs" style="background-color: gray;width: 450px;border: 4px;margin: 5px;height: 450px;display: grid;column-gap: 20px;row-gap: 20px;padding: 15px;">
+   <div id="contractspecs" hidden style="background-color: gray;width: 450px;border: 4px;margin: 5px;height: 450px;display: grid;column-gap: 20px;row-gap: 20px;padding: 15px;">
      <div id="requierments" style="grid-row: 1/span 4;background-color: lightgray;">
        <p id="cert">certification required: none</p>
        <p>licenses required:</p>
@@ -51,10 +51,12 @@
        <p id="requ9">medium tanks:100</p>
        <p id="requ10">heavy tanks:100</p>
      </div>
-     <div id="reward" style="background-color: lightgray;"></div>
+     <div id="reward" style="background-color: lightgray;">
      <p>rewards:</p>
      <p id="licensereward">rifle license</p>
      <p id="moneyreward">500 dollars</p>
+     </div>
+     <button style="background-color: lightgray;" onclick="clocont()">close</button>
    </div>
       <div id="production" hidden >
       </div>
