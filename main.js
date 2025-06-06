@@ -56,3 +56,7 @@ function contractmenu() {
   document.getElementById("contrreqi").hidden = false;
   document.getElementById("statistics").hidden = true;
 }
+function govcont() {
+  document.getElementById("contractspecs").hidden = false;
+  document.getElementById("")
+}
