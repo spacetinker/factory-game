@@ -58,5 +58,4 @@ function contractmenu() {
 }
 function govcont() {
   document.getElementById("contractspecs").display = "grid";
-  document.getElementById("")
 }
