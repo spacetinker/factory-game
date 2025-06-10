@@ -57,5 +57,5 @@ function contractmenu() {
   document.getElementById("statistics").hidden = true;
 }
 function govcont() {
-  document.getElementById("contractspecs").display = "grid";
+  contractspecs.style.display="grid"
 }
