@@ -7,7 +7,7 @@ function productionmenu() {
   document.getElementById("research").hidden = true;
   document.getElementById("administration").hidden = true;  
   document.getElementById("stockpile").hidden = true;
-  document.getElementById("contracts").hidden = true;
+  document.getElementById("contracts").style.display = none;
   document.getElementById("statistics").hidden = true;
   document.getElementById("contrreqi").hidden = true;
 }
@@ -16,7 +16,7 @@ function stockmenu() {
   document.getElementById("research").hidden = true;
   document.getElementById("administration").hidden = true;  
   document.getElementById("stockpile").hidden = false;
-  document.getElementById("contracts").hidden = true;
+  document.getElementById("contracts").style.display = none;
   document.getElementById("statistics").hidden = true;
   document.getElementById("contrreqi").hidden = true;
 }
@@ -25,7 +25,7 @@ function adminmenu() {
   document.getElementById("research").hidden = true;
   document.getElementById("administration").hidden = false;  
   document.getElementById("stockpile").hidden = true;
-  document.getElementById("contracts").hidden = true;
+  document.getElementById("contracts").style.display = none;
   document.getElementById("statistics").hidden = true;
   document.getElementById("contrreqi").hidden = true;
 }
@@ -34,7 +34,7 @@ function researchmenu() {
   document.getElementById("research").hidden = false;
   document.getElementById("administration").hidden = true;  
   document.getElementById("stockpile").hidden = true;
-  document.getElementById("contracts").hidden = true;
+  document.getElementById("contracts").style.display = none;
   document.getElementById("contrreqi").hidden = true;
   document.getElementById("statistics").hidden = true;
 }
@@ -43,7 +43,7 @@ function statsmenu() {
   document.getElementById("research").hidden = true;
   document.getElementById("administration").hidden = true;  
   document.getElementById("stockpile").hidden = true;
-  document.getElementById("contracts").hidden = true;
+  document.getElementById("contracts").style.display = none;
   document.getElementById("contrreqi").hidden = true;
   document.getElementById("statistics").hidden = false;
 }
@@ -52,7 +52,7 @@ function contractmenu() {
   document.getElementById("research").hidden = true;
   document.getElementById("administration").hidden = true;  
   document.getElementById("stockpile").hidden = true;
-  document.getElementById("contracts").hidden = false;
+  document.getElementById("contracts").style.display = grid;
   document.getElementById("contrreqi").hidden = false;
   document.getElementById("statistics").hidden = true;
 }
